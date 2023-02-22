@@ -1,0 +1,16 @@
+#include "main.h"
+
+/**
+ * print_alphabet - make the alphabet
+ * return: void
+ */
+
+void print_alphabet(void)
+{
+	char c;
+	for (c = 'a'; c <= '2'; c++)
+	{
+	_putchar(c);
+	}
+	_putchar('\n');
+}
