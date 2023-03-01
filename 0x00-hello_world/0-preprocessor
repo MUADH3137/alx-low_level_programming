@@ -1,5 +1,4 @@
 #!/bin/bash
 
-cpp $CFILE > c
-tail c
+cpp $CFILE > c && tail c
 
