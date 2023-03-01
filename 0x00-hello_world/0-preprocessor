@@ -1,11 +1,5 @@
 #!/bin/bash
 
-# Get the C file name from the environment variable
-CFILE="$CFILE"
-
-# Run the preprocessor and save the output to a file
-cpp "$CFILE" > c
-
-# Print the last few lines of the output file as a confirmation
+cpp $CFILE > c
 tail c
 
